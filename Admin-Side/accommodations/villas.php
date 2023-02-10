@@ -291,16 +291,24 @@
    arrowParent.classList.toggle("showMenu");
     });
   }
-  let sidebar = document.querySelector(".sidebar");
-  let sidebarBtn = document.querySelector(".bx-menu");
-  console.log(sidebarBtn);
-  sidebarBtn.addEventListener("click", ()=>{
-    sidebar.classList.toggle("close");
-  });
+  // let sidebar = $('.sidebar')
+  // let sidebarBtn = document.querySelector(".bx-menu");
+  // console.log(sidebarBtn);
+  // sidebarBtn.addEventListener("click", ()=>{
+  //   sidebar.classList.toggle("close");
+  // });
 
-  document.getElementById("addform").addEventListener("click", function(){
-  document.getElementById("formcontainer").style.display = "block";
-});
+    $('.bx-menu').on('click', function(){
+      $('.sidebar').toggleClass('close');
+    });
+
+//   document.getElementById("addform").addEventListener("click", function(){
+//   document.getElementById("formcontainer").style.display = "block";
+// });
+
+  $('#addform').on('click', function(){
+    $('#formcontainer').show();
+  });
 
 function closeForm() {
         document.getElementById("formcontainer").style.display = "none";
