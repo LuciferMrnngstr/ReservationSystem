@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+}
+.book_container{
+    width: 70%;
+    height: 150vh;
+    background-color: aqua;
+
+}
+.close_button{
+    float: right;
+}
+.title-box{
+
+}
+.accommodation_content{
+    display:flex;
+    background-color: azure;
+    align-items: center;
+    margin: 10px 50px;
+}
+.guest-container-box{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px;
+    
+}
+.guest_info{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    margin:10px 0px;
+    
+}
+.guest_content{
+    display: inline-block;
+    margin:10px 0px;
+    align-items: center;
+}
+.choosen_accomodation{
+    display: inline-block;
+}
+.choosen_accomodation .image-choosen{
+    width: 500px;
+    display: inline-block;
+}
+.costumer-info{
+    display: block;
+}
+
