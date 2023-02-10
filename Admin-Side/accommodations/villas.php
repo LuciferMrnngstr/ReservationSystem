@@ -77,6 +77,17 @@
       text-decoration: none;
       cursor: pointer;
     }
+    #DataTables_Table_0_filter > label{
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #villa-page div.home-section{
+      
+    }
+    
   </style>
 
 
@@ -84,7 +95,7 @@
 
 
 </head>
-<body>
+<body id="villa-page">
     
 
 </body>
