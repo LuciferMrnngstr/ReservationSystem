@@ -1,6 +1,6 @@
 <?php
 
-require_once 'database.sample.php';
+require_once 'db_admin.php';
 
 Class Accounts{
     //attributes
