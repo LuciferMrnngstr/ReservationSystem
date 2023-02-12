@@ -29,7 +29,7 @@
         $villas->capacity = $_POST['capacity'];
         $villas->inclusion = $_POST['inclusion'];
         $villas->price = $_POST['price'];
-        $villas->status = 'Not Set';
+
         if(isset($_POST['status'])){
             $villas->status = $_POST['status'];
         }

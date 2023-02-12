@@ -34,6 +34,24 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <script src="https://kit.fontawesome.com/0cc7e94eea.js" crossorigin="anonymous"></script>
 
+    <style>
+      .form-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+      }
+
+      .form-input {
+        width: 500px;
+        padding: 10px;
+        margin: 10px;
+        font-size: 16px;
+      }
+    </style>
+
+
+    
 </head>
 <body>
     
@@ -50,7 +68,59 @@
     </div>
 </div>
 
-
+<div class="form-container">
+      <form>
+        <div>
+          <label for="photo">PHOTO:</label>
+          <input type="file" id="photo" name="photo" class="form-input" />
+        </div>
+        <div>
+          <label for="fullName">FULL NAME:</label>
+          <input type="text" id="fullName" name="fullName" class="form-input" />
+        </div>
+        <div>
+          <label for="contactNumber">CONTACT NUMBER:</label>
+          <input type="text" id="contactNumber" name="contactNumber" class="form-input" />
+        </div>
+        <div>
+          <label for="birthday">BIRTHDAY:</label>
+          <input type="date" id="birthday" name="birthday" class="form-input" />
+        </div>
+        <div>
+          <label for="position">POSITION:</label>
+          <input type="text" id="position" name="position" class="form-input" />
+        </div>
+        <div>
+          <label for="userType">USER TYPE:</label>
+          <input type="text" id="userType" name="userType" class="form-input" />
+        </div>
+        <div>
+          <label for="unit">UNIT:</label>
+          <input type="text" id="unit" name="unit" class="form-input" />
+        </div>
+        <div>
+          <label for="street">STREET:</label>
+          <input type="text" id="street" name="street" class="form-input" />
+        </div>
+        <div>
+          <label for="barangay">BARANGAY:</label>
+          <input type="text" id="barangay" name="barangay" class="form-input" />
+        </div>
+        <div>
+          <label for="city">CITY:</label>
+          <input type="text" id="city" name="city" class="form-input" />
+        </div>
+        <div>
+          <label for="username">USERNAME:</label>
+          <input type="text" id="username" name="username" class="form-input" />
+        </div>
+        <div>
+          <label for="password">PASSWORD:</label>
+          <input type="password" id="password" name="password" class="form-input" />
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
 
 
   <script>

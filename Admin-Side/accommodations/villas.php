@@ -84,10 +84,36 @@
       justify-content: center;
     }
 
-    #villa-page div.home-section{
-      
-    }
+    .dataTables_wrapper .dataTables_length select{
+      border: 1px solid #000;
+      border-radius: 3px;
+      padding: 5px;
+      background-color: #ffffff;
+      padding: 4px;
+      }
     
+    .dataTables_wrapper .dataTables_filter input{
+      border: 1px solid #000;
+      border-radius: 3px;
+      padding: 5px;
+      background-color: #fffffffc;
+      margin-left: 3px;
+      }
+  
+    .element.style{
+      display: inline-flex;
+      /* align-content: center; */
+      justify-content: center;
+      align-items: baseline;
+      flex-wrap: nowrap;
+      flex-direction: row;
+    }
+
+    select {
+     margin-left: 5px;
+     margin-right: 5px;
+    }
+
   </style>
 
 
@@ -113,7 +139,7 @@
                 ?>
                     
                 
-                    <button class="button" id="myBtn">Open Form</button>
+                    <button class="button" id="myBtn">+ Add</button>
                 <?php
                     }
                 ?>
@@ -131,7 +157,7 @@
                         <?php
                             if($_SESSION['user_type'] == 'admin'){ 
                         ?>
-                            <th class="action">sasasa</th>
+                            <th class="action">Action</th>
                         <?php
                             }
                         ?>
@@ -162,8 +188,8 @@
                             ?>
                                 <td>
                                     <div class="action">
-                                        <a class="action-edit" href="editvillas.php?id=<?php echo $value['id'] ?>">Edit</a>
-                                        <a class="action-delete" href="deletevillas.php?id=<?php echo $value['id'] ?>">Delete</a>
+                                        <a class="action-edit" href="editvillas.php?id=<?php echo $value['id'] ?>"><i class="fas fa-edit"></i></a>
+                                        <a class="action-delete" href="deletevillas.php?id=<?php echo $value['id'] ?>"><i class="fa-solid fa-trash-can"></i></a>
                                     </div>
                                 </td>
                             <?php
@@ -196,7 +222,7 @@
       <label for="vill_type">Villas Type</label>
     </div>
     <div class="col-75">
-      <select id="vill_type" name="vill_type">
+      <select id="vill_type" name="vill_type" style="margin-left: 0;">
         <option value="None" <?php if(isset($_POST['vill_type'])) { if ($_POST['vill_type'] == 'None') echo ' selected="selected"'; } ?>> <--Please Select--></option>
         <option value="Villa #1" <?php if(isset($_POST['vill_type'])) { if ($_POST['vill_type'] == 'Villa #1') echo ' selected="selected"'; } ?>>Villa #1</option>
         <option value="Villa #2" <?php if(isset($_POST['vill_type'])) { if ($_POST['vill_type'] == 'Villa #2') echo ' selected="selected"'; } ?>>Villa #2</option>
@@ -219,7 +245,7 @@
       <label for="capacity">Capacity</label>
     </div>
     <div class="col-75">
-      <select id="capacity" name="capacity">
+      <select id="capacity" name="capacity" style="margin: 0;">
         <option value="None" <?php if(isset($_POST['capacity'])) { if ($_POST['capacity'] == 'None') echo ' selected="selected"'; } ?>> <--Please Select--></option>
         <option value="8 Persons Only" <?php if(isset($_POST['capacity'])) { if ($_POST['capacity'] == '8 Persons Only') echo ' selected="selected"'; } ?>>8 Persons Only</option>
         <option value="12 Persons Only" <?php if(isset($_POST['capacity'])) { if ($_POST['capacity'] == '12 Persons Only') echo ' selected="selected"'; } ?>>12 Persons Only</option>
@@ -290,7 +316,13 @@
     modal.style.display = "none";
   }
 
-  // When the user clicks anywhere outside of
+  // When the user clicks anywhere outside of the modal, close it
+  
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
     
 </script>
 

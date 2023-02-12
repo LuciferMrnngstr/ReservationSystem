@@ -109,10 +109,16 @@ input, select {
 
 input[type=radio]{
     width: auto;
+    margin: 5px;
 }
 
 label{
-    margin-right: 20px;
+    display: inline-flex;
+    /* align-content: center; */
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    flex-direction: row;
 }
 
         /******************************START OF SIDEBAR*****************************************/
@@ -229,7 +235,6 @@ nav .side-bar-button i{
     background: rgb(22, 134, 0);
     color: white;
     cursor: pointer;
-    margin-left: 1000px;
 }
 
 
@@ -262,6 +267,7 @@ a.action-edit:hover, a.action-delete:hover{
     height: 25px;
     align-items: center;
     margin-bottom: 20px;
+    justify-content: flex-end;
 }
 
 .add-form {
