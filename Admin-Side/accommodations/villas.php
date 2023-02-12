@@ -131,7 +131,7 @@
                         <?php
                             if($_SESSION['user_type'] == 'admin'){ 
                         ?>
-                            <th class="action">Action</th>
+                            <th class="action">sasasa</th>
                         <?php
                             }
                         ?>
