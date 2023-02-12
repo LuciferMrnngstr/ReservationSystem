@@ -104,7 +104,7 @@ nav{
     border-radius: 2px;
     padding: 1px 15px;
     transition: .5s;
-    background: #DFF6FF;
+    
     
     
 }
@@ -257,6 +257,7 @@ nav{
     cursor: pointer;
     border: none;
     outline: none;
+    padding-bottom: 40px;
 }
 .register .reg-btn:hover{
     transform: scale(1.1);
@@ -333,6 +334,7 @@ nav{
     cursor: pointer;
     border: none;
     outline: none;
+    padding-bottom: 40px;
 
 }
 .login .login-btn:hover{

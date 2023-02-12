@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="availability.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
@@ -27,7 +27,7 @@
                 <ul>
                 
                     <li><a href="home.php">HOME</a></li>
-                    <li class="dropdown"><a href="./accomodation/accommodation.php">ACCOMODATION
+                    <li class="dropdown"><a href="#">ACCOMODATION
                         <i class='bx bxs-chevron-down arrow'></i>   
                         </a>
                         <div class="dropdown_menu">
@@ -112,13 +112,17 @@
 
        </div>
         <div class="text-box">
-            <h1>EXPLORE</h1>
-            <h2> " EXTRAORDINARY EXPERIENCE "</h2>
+           
+                <hr class="header_line">    
+                    <h1>AVAILABILITY</h1> 
+                <hr class="header_line"> 
+           
+            
+            <!--<h2> " EXTRAORDINARY EXPERIENCE "</h2>
             <p>A whole new hotel and beach resort experience unlike any other,<br>come and visit azzura for more
                 exciting views and spots.
             </p>
-            <a href="#" class="hero_btn"id="clickme">Sign-in</a>
-            
+            <a href="#" class="hero_btn"id="clickme">Sign-in</a>-->
 
             <div class="availability">
             <div class="status">
@@ -142,7 +146,7 @@
                             
                         </div>
 
-                        <input type="submit" id="submit" name="submit" value="Check Availabity">
+                        <!--<input type="submit" id="submit" name="submit" value="Check Availabity">-->
                     </div>    
                     
                 </form>
@@ -152,101 +156,11 @@
        </div>
 
         </div>
-        
-        
-    </section>
-        
-    <section class="container" data-aos="zoom-in-right">
-        <h2 class="text">Welcome to</h1>
-        <h1 class="title">Azzura Hotel and Beach Resort</h1>
-        <p class="paragraph">Find Azzura in Bolong Zamboanga City, Azzura are designed to merge intimate <br>
-            stays in one instagram worthy space for you, our guests.
-        </p>
-        <div class="row">
-            <div class="container-col">
-                <img src="images/bed_con.png"style="width: 100px;">
-                <h3>Fully furnished airconditioned rooms</h3>
-
-            </div>
-            <div class="container-col">
-                <img src="images/costumer.png"style="width: 100px;">
-                <h3>High Costumer<br>Satisfaction</h3>
-
-            </div>
-            <div class="container-col">
-                <img src="images/convenient.webp"style="width: 100px;">
-                <h3>Convenient <br>Location</h3>
-
-            </div>
-            <div class="container-col">
-                <img src="images/clean.jpg"style="width: 100px;">
-                <h3>Clean and green surroundings</h3>
-
-            </div>
-            <div class="container-col">
-                <img src="images/secured.jpg"style="width: 100px;">
-                <h3>Peaceful and <br>secured place</h3>
-
-            </div>
-        </div>
+    
     </section>
 
-    <section class="image-container"data-aos="fade-up"
-     data-aos-anchor-placement="center-bottom">
+    <!--UNSPLASH CONTENT-->
 
-        <h1>Azzura New Exciting Experience</h1>
-        <div class="row">
-            <div class="image-col">
-                <img src="images/profile.jpg">
-                <div class="layer">
-                    <h3>Olympic Pool</h3>
-                </div>
-            </div>
-            <div class="image-col">
-                <img src="images/profile.jpg">
-                <div class="layer">
-                    <h3>Mini Pool</h3>
-                </div>
-            </div>
-            <div class="image-col">
-                <img src="images/profile.jpg">
-                <div class="layer">
-                    <h3>Aqua Park</h3>
-                </div>
-            </div>
-        </div>
-        
-
-    </section>
-
-    <section class="content-box" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-        <div class="content-row">
-            <div class="content_text">
-                <p  class="text-bar"> Create memorable 'Beach' and 'waterfront' experiences for 
-                    visitors that promote interaction with the natural environment
-                    though appropriate amenities, linkages and public accesses 
-                </p>
-            </div>
-            <div class="content-col">
-                <div class="photo-one">
-                    <img src="images/profile.jpg"class="picture-one">
-                </div>
-                <div class="photo_two">
-                    <img src="images/profile.jpg">
-                </div>
-            </div>
-            <div class="content-col">
-                <div class="photo_two">
-                    <img src="images/profile.jpg">
-                </div>
-                <div class="photo-one">
-                    <img src="images/profile.jpg"class="picture-one">
-                </div>
-            </div>
-            
-                
-        </div>
-    </section>
     <section class="background-content"data-aos="zoom-in-right">
         <div class="text-content">
             <p>
@@ -257,6 +171,9 @@
         </div>
 
     </section>
+
+     <!--CONTACT INFORMATION CONTENT-->
+
     <section class="contact-info"data-aos="fade-down-left">
         <h1>GET IN TOUCH</h1>
         <h3>Azzura Hotel & Beach Resort</h3>
@@ -273,14 +190,17 @@
 
     </section>
 
-    <section class="footer">
+    <!--FOOTER CONTENT-->
 
-    <div class="footer-text">
-        <p>Copyright @ 2022 Azzura. All rights reserved. Powered by ROTcorp. <br>Terms and Conditions
-    </p>
-    </div>
+    <section class="footer">
+        <div class="footer-text">
+            <p>Copyright @ 2022 Azzura. All rights reserved. Powered by ROTcorp. <br>Terms and Conditions
+        </p>
+        </div>
     </section>
 
+    <!--JAVASCRIPT CONTENT HERE-->
+    
     <script>
         var navLinks = document.getElementById("navLinks")
         function showMenu(){
