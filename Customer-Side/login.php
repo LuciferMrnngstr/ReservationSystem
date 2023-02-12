@@ -44,6 +44,7 @@
                            <a href="./filters/events.php">EVENT</a>
                            <a href="./filters/services.php">SERVICES</a>
                            <a href="./filters/gallery.php">GALLERY</a>
+                           <a href="./filters/gallery.php">GALLERY</a>
                         </div>
                     </li>
                     <li><a href="#">LOCATION</a></li>
