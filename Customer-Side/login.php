@@ -27,7 +27,7 @@
                 <ul>
                 
                     <li><a href="home.php">HOME</a></li>
-                    <li class="dropdown"><a href="#">ACCOMODATION
+                    <li class="dropdown"><a href="./accomodation/accommodation.php">ACCOMODATION
                         <i class='bx bxs-chevron-down arrow'></i>   
                         </a>
                         <div class="dropdown_menu">
