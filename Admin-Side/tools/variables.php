@@ -1,5 +1,5 @@
 <?php
-
+    $page_title = "";
     $dashboard = "";
     $accommodations = "";
     $discounts= "";
@@ -10,5 +10,4 @@
     $otheramenities = "";
     $archives = "";
     $settings = "";
-
 ?>
