@@ -1,16 +1,20 @@
 <?php
         //resume session here to fetch session values
+        session_start();
         /*
             if user is not login then redirect to login page,
             this is to prevent users from accessing pages that requires
             authentication such as the dashboard
         */
+        if (!isset($_SESSION['user_type']) || $_SESSION['user_type'] != 'admin'){
+            header('location: ../landing/landing.php');
+        }
 
     require_once '../tools/variables.php';
     $page_title = 'Azzura | Dashboard';
     $dashboard = 'active';
 
-    require_once '../inclusion/header.php';
+    require_once '../includes/adhead.php';
 ?>
 <style>
     .mdc-card.info-card .card-inner .card-title{
@@ -42,9 +46,9 @@
 
 </style>
 <div class="body-wrapper">
-    <?php require_once '../inclusion/adsidebar.php'; ?>
+    <?php require_once '../includes/adsidebar.php'; ?>
         <div class="main-wrapper mdc-drawer-app-content">
-            <?php require_once '../inclusion/adheader.php'; ?>
+            <?php require_once '../includes/adheader.php'; ?>
             <span class="mdc-top-app-bar__title"> <h3 style="margin-left: 37px;"> Dashboard </h3></span>
                 <div class="page-wrapper mdc-toolbar-fixed-adjust">
                     <main class="content-wrapper">
@@ -104,10 +108,10 @@
                     </div>
                     </main>
                     <!-- partial:partials/_footer.html --> 
-                    <?php require_once '../inclusion/adfooter.php'; ?>
+                    <?php require_once '../includes/adfooter.php'; ?>
                     <!-- partial -->
                 </div>
         </div>
 </div>
 
-<?php require_once '../inclusion/adend.php'; ?>
+<?php require_once '../includes/adend.php'; ?>
