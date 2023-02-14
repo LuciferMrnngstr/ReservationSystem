@@ -88,7 +88,7 @@
                                 <div class="mdc-checkbox__mixedmark"></div>
                               </div>
                             </div>
-                            <label for="checkbox-1">Remember me</label>
+                            <label for="checkbox-1">Remember me!</label>
                           </div>
                         </div>
                         <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-6-desktop d-flex align-items-center justify-content-end">
