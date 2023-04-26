@@ -1,0 +1,112 @@
+/* Custom Styles */
+
+/* Navbar */
+.navbar {
+  background-color: #f76c6c;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #333;
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-image: url('https://via.placeholder.com/1500x500');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.btn-primary {
+  background-color: #333;
+  border-color: #333;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #333;
+}
+
+/* Features Section */
+#features {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+
+.card {
+  border: none;
+  text-align: center;
+}
+
+.card i {
+  color: #f76c6c;
+}
+
+.card-title {
+  font-weight: bold;
+  color: #333;
+}
+
+.card-text {
+  color: #777;
+}
+
+/* Products Section */
+#products {
+  padding: 80px 0;
+}
+
+.card-img-top {
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: bold;
+  color: #333;
+}
+
+.card-text {
+  color: #777;
+}
+
+.btn-primary {
+  background-color: #f76c6c;
+  border-color: #f76c6c;
+}
+
+.btn-primary:hover {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+/* Footer */
+#footer {
+  padding: 30px 0;
+}
