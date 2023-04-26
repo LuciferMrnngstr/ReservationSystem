@@ -1,0 +1,221 @@
+.booking-container-box{
+    position: relative;
+    height: 100%;
+    
+}
+.box-container{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 50px;
+    border: 3px solid;
+}
+
+.first-row .option{
+    margin: 20px 3px;
+}
+
+.booking-container{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.header-title-text h3{
+
+    font-size: 35px;
+    margin-top: 70px;
+}
+.line{
+
+    width: 50%;
+    border: 1px solid;
+}
+.booking-container .section1{
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.divider-2 .booking-details{
+    float: right;
+    margin: 20px 0px;
+}
+.divider-2 .Description-container{
+    border: 2px solid;
+}
+.Description-container h3{
+   margin: 30px 20px;
+   font-size: 34px;
+   font-weight: 200;
+}
+.Description-container .description-content{
+
+    margin: 20px 20px;
+}
+.description-content p{
+    font-size: 20px;
+    font-weight: 300;
+}
+.description-content .check-date{
+
+    margin-left: 20px;
+    border: 2px solid;
+    padding: 5px 4px;
+}
+.description-content .check-time{
+
+    margin-left: 20px;
+    border: 2px solid;
+    padding: 5px 4px;
+}
+.seemore{
+    margin-left: 40%;
+}
+
+.book-details ul li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 300;
+}
+.booking-header h4{
+
+    margin-left: 15px;
+}
+.Table-Prices{
+    margin-top: 50px;
+    min-height: 120vh;
+}
+.amount-container{
+    border: 2px solid;
+    height: 110vh;
+    overflow: hidden;
+
+}
+.Button-container{
+    margin: 30px 50px;
+}
+.accommodation-title{
+    margin-left: 50px;
+}
+.amount-box{
+    background-color: #E5BA73;
+    padding: 20px 20px;
+    border: 2px solid;
+}
+
+.price-details p{
+
+    margin-left: 250px;
+
+}
+.prices{
+    margin-left: 70px;
+}
+.total{
+    padding: 20px ;
+}
+.confirmation{
+    padding: 30px 30px;
+}
+.clickbtn a{
+    margin: 10px 10px;
+    padding: 0px 20px;
+
+}
+.clickbtn button{
+    width: 20%;
+    padding: 20px 40px;
+}
+.accommodation-container{
+    height: 100%;
+}
+.amenties-container{
+    margin-top: 50px;
+}
+.price-information{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 30%;
+}
+.price-container .type{
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+
+}
+.Amenities{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100%;
+}
+.confirmation{
+    margin: 150px 0px;
+}
+.grand-total{
+
+}
+.divider-line{
+   
+    width: 100%;
+    margin-left: 750px;
+    margin-right: 76px;
+    border: 2px solid;
+}
+
+
+/* Book Css stylesheet here */
+
+
+
+.wrapper{
+    height: 57px;
+    min-width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 12px;
+    border: 1px solid;
+}
+.wrapper .qty{
+    border-radius: 12px;
+    padding: 10px 10px;
+    z-index: 2;
+}
+.wrapper span{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.wrapper span.num{
+    font-size: 20px;
+    border-right: 2px solid rgba(0,0,0,0.2);
+    border-left: 2px solid rgba(0,0,0,0.2);
+    pointer-events: none;
+    
+}
+.check-availabity{
+    margin-left: 120px;
+}
+.check-input{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.check-form{
+    height: 70px;
+}
+
+
+/* booking-process CSS */
+.accommodation-table{
+    max-height: 820px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
